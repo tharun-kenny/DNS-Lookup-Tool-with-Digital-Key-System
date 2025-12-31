@@ -11,6 +11,15 @@ A secure DNS auditing tool with enterprise-grade key management and access contr
 - JSON export functionality
 - Customizable DNS servers
 
+## ⚡ Quick Start
+
+```bash
+# git clone <your-repo-url>
+# cd dns-lookup-tool
+# chmod +x setup.sh
+# ./setup.sh
+
+
 ### 🔐 Security Features
 - Digital key generation and validation
 - Time-based key expiry
@@ -24,15 +33,6 @@ A secure DNS auditing tool with enterprise-grade key management and access contr
 - Usage tracking
 - Failed attempt monitoring
 - JSON export capabilities
-
-## ⚡ Quick Start
-
-```bash
-# git clone <your-repo-url>
-# cd dns-lookup-tool
-# chmod +x setup.sh
-# ./setup.sh
-
 
 ## 📋 Prerequisites
 
