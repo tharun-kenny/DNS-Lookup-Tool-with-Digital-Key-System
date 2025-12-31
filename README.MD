@@ -28,16 +28,20 @@ A secure DNS auditing tool with enterprise-grade key management and access contr
 ## 🏁 Quick Start Tutorial 
 
 ```Tutorial
-## Clone the repository
+# Clone the repository
+
 git clone https://github.com/tharun-kenny/DNS-Lookup-Tool-with-Digital-Key-System
 
-## Navigate to project
+# Navigate to project
+
 cd DNS-Lookup-Tool-with-Digital-Key-System
 
-## List project files
+# List project files
+
 ls 
 
-## Make all scripts executable
+# Make all scripts executable
+
 chmod +x *
 
 ```
