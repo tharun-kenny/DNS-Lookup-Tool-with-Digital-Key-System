@@ -11,6 +11,22 @@ A secure DNS auditing tool with enterprise-grade key management and access contr
 - JSON export functionality
 - Customizable DNS servers
 
+**Ubuntu/Debian:**
+```bash
+sudo apt-get update
+sudo apt-get install dnsutils openssl whois
+```
+
+**macOS:**
+```bash
+brew install bind openssl whois
+```
+
+**CentOS/RHEL:**
+```bash
+sudo yum install bind-utils openssl whois
+```
+
 
 ### 🔐 Security Features
 - Digital key generation and validation
