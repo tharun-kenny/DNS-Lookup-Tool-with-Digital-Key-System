@@ -44,6 +44,15 @@ chmod +x *
 ./dns_tool.sh --help 
 ./key_manager.sh --help
 
+#Check system status 
+./key_manager.sh --status
+
+#View Logs
+tail -50 logs/access_*.log
+
+# Create debug report
+bash -x dns_tool.sh -d test.com 2>&1 | tee debug.log
+
 ```
 
 ## 🚨 Troubleshooting Common Issues
