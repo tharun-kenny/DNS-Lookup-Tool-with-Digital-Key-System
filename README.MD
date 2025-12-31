@@ -11,23 +11,6 @@ A secure DNS auditing tool with enterprise-grade key management and access contr
 - JSON export functionality
 - Customizable DNS servers
 
-**Ubuntu/Debian:**
-```bash
-sudo apt-get update
-sudo apt-get install dnsutils openssl whois
-```
-
-**macOS:**
-```bash
-brew install bind openssl whois
-```
-
-**CentOS/RHEL:**
-```bash
-sudo yum install bind-utils openssl whois
-```
-
-
 ### 🔐 Security Features
 - Digital key generation and validation
 - Time-based key expiry
@@ -42,8 +25,21 @@ sudo yum install bind-utils openssl whois
 - Failed attempt monitoring
 - JSON export capabilities
 
-```python 
-# git clone 
+## 🏁 Quick Start Tutorial 
+
+```Tutorial
+# Clone the repository
+git clone https://github.com/tharun-kenny/DNS-Lookup-Tool-with-Digital-Key-System
+
+# Navigate to project
+cd DNS-Lookup-Tool-with-Digital-Key-System
+
+# List project files
+ls 
+
+# Make all scripts executable
+chmod +x *
+
 ```
 
 ## 📋 Prerequisites
