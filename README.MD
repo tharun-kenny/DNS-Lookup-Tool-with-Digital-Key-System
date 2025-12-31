@@ -26,20 +26,7 @@ A secure DNS auditing tool with enterprise-grade key management and access contr
 - Failed attempt monitoring
 - JSON export capabilities
 
-# Check your current system
-uname -a
-bash --version
-
-## ⚡ Quick Start
-
-```bash
-- git clone https://github.com/tharun-kenny/DNS-Lookup-Tool-with-Digital-Key-System.git
-- cd DNS-Lookup-Tool-with-Digital-Key-System
-- chmod +x setup.sh
-- ./setup.sh
-`bash
-
-## 📋 Prerequisites
+### 📋 Prerequisites
 
 # Required tools
 dig      # DNS lookup utility
