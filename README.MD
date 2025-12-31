@@ -37,7 +37,7 @@ bash --version
 - cd DNS-Lookup-Tool-with-Digital-Key-System
 - chmod +x setup.sh
 - ./setup.sh
-
+`bash
 
 ## 📋 Prerequisites
 
