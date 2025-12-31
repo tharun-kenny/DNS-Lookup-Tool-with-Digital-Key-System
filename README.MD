@@ -26,6 +26,8 @@ A secure DNS auditing tool with enterprise-grade key management and access contr
 - JSON export capabilities
 
 ## ⚡ Quick Start
+
+```bash
 # git clone <your-repo-url>
 # cd dns-lookup-tool
 # chmod +x setup.sh
