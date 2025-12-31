@@ -36,8 +36,22 @@ cd DNS-Lookup-Tool-with-Digital-Key-System/
 # Make all script Executable 
 chmod +x * 
 
-# To execute 
-./dns_tool.sh --domain example.com
+```
+
+```bash 
+# 1. Ensure keys are enabled
+echo "REQUIRE_KEY=true" > config.env
+
+# 2. Generate your first key
+./key_manager.sh --generate
+# ⚠️ COPY THE OUTPUT! It shows only once!
+
+# 3. Unlock
+./key_manager.sh --unlock
+# Enter the Key ID and Secret from step 2
+
+# 4. Now test DNS
+./dns_tool.sh -d example.com
 
 ```
 
