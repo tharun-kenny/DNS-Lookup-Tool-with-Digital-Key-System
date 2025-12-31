@@ -33,10 +33,10 @@ bash --version
 ## ⚡ Quick Start
 
 ```bash
-# git clone https://github.com/tharun-kenny/DNS-Lookup-Tool-with-Digital-Key-System.git
-# cd DNS-Lookup-Tool-with-Digital-Key-System
-# chmod +x setup.sh
-# ./setup.sh
+- git clone https://github.com/tharun-kenny/DNS-Lookup-Tool-with-Digital-Key-System.git
+- cd DNS-Lookup-Tool-with-Digital-Key-System
+- chmod +x setup.sh
+- ./setup.sh
 
 
 ## 📋 Prerequisites
