@@ -25,34 +25,6 @@ A secure DNS auditing tool with enterprise-grade key management and access contr
 - Failed attempt monitoring
 - JSON export capabilities
 
-## 🏁 Quick Start Tutorial 
-
-```Tutorial
-# Clone the repository
-
-git clone https://github.com/tharun-kenny/DNS-Lookup-Tool-with-Digital-Key-System
-
-# Navigate to project
-
-cd DNS-Lookup-Tool-with-Digital-Key-System
-
-# List project files
-
-ls 
-
-# Make all scripts executable
-
-chmod +x *
-
-```
-
-## 📋 Prerequisites
+## 🏁 Quick Start Tutorial
 ```bash
-# Required tools
-dig      # DNS lookup utility
-openssl  # Encryption
-whois    # Domain information (optional)
-
-# Install on Ubuntu/Debian
-sudo apt-get update
-sudo apt-get install dnsutils openssl whois
+# Clone the Repository
