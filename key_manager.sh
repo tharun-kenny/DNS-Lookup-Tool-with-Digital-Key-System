@@ -140,7 +140,7 @@ unlock_system() {
     while [ $attempts -lt $max_attempts ]; do
         echo ""
         read -p "Enter Key ID: " key_id
-        read -sp "Enter Key Secret: " key_secret
+        read -p "Enter Key Secret: " key_secret
         echo ""
         
         local result=$(validate_key "$key_id" "$key_secret")
