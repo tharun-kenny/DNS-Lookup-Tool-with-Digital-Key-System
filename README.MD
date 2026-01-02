@@ -28,10 +28,10 @@ A secure DNS auditing tool with enterprise-grade key management and access contr
 ## 🏁 Quick Start Tutorial
 ```bash
 # Clone the Repository
-git clone https://github.com/tharun-kenny/DNS-Lookup-Tool-with-Digital-Key-System/
+git clone https://github.com/tharun-kenny/DNS-tool/
 
 # Navigate to Repository 
-cd DNS-Lookup-Tool-with-Digital-Key-System/
+cd DNS-tool/
 
 # Make all script Executable 
 chmod +x * 
